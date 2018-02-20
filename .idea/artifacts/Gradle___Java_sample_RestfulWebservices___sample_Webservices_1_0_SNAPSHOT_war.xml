@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : Java-sample-RestfulWebservices : sample-Webservices-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="sample-Webservices-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Gradle : Java-sample-RestfulWebservices : sample-Webservices-1.0-SNAPSHOT.war (exploded)" />
+    </root>
+  </artifact>
+</component>
