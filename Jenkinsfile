@@ -3,9 +3,9 @@ pipeline {
     stages{
         stage('Build'){
             steps {
- //               sh 'mvn clean package'
-                  echo 'Build stage'
-            }
+                echo 'Now building'
+                bash 'gradlew build war'
+                }
             post {
                 success {
                     echo 'Now Archiving...'
