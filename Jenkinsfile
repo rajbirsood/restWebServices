@@ -4,7 +4,7 @@ pipeline {
         stage('Build'){
             steps {
                 echo 'Now building'
-                bash 'gradlew build war'
+                bat 'gradlew build war'
                 }
             post {
                 success {
